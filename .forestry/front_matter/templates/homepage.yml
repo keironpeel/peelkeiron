@@ -1,5 +1,5 @@
 ---
-label: Pages
+label: Page
 hide_body: false
 fields:
 - name: title
@@ -8,5 +8,14 @@ fields:
     required: false
   label: Title
   description: The title for the page to be added into the head.
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  description: The location of the template to be used.
+- name: draft
+  type: boolean
+  label: Published?
 pages:
 - src/pages/homepage.md
