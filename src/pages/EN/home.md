@@ -6,4 +6,4 @@ draft: false
 ---
 My name is Keiron.
 
-![](/public/mr_5780.jpg)
+![hands](/uploads/mr_5780.jpg)
