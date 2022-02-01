@@ -16,6 +16,7 @@ fields:
   description: The location of the template to be used.
 - name: draft
   type: boolean
-  label: Published?
+  label: Draft?
+  description: Toggle if a draft.
 pages:
 - src/pages/homepage.md
