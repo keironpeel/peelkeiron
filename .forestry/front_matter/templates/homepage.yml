@@ -8,3 +8,5 @@ fields:
     required: false
   label: Title
   description: The title for the page to be added into the head.
+pages:
+- src/pages/homepage.md
