@@ -20,3 +20,4 @@ fields:
   description: Toggle if a draft.
 pages:
 - src/pages/EN/home.md
+- src/pages/PT/index.md
