@@ -18,3 +18,5 @@ fields:
   type: boolean
   label: Draft?
   description: Toggle if a draft.
+pages:
+- src/pages/EN/home.md
