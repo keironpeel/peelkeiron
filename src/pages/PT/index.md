@@ -1,6 +1,6 @@
 ---
 title: Index
-layout: "../layouts/BaseLayout.astro"
+layout: "../../layouts/BaseLayout.astro"
 draft: false
 
 ---
