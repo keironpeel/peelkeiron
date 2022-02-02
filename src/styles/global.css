@@ -16,6 +16,11 @@ body {
     padding: 0;
 }
 
+img {
+    height: auto;
+    width: 100%;
+}
+
 section.large {
     height: var(--section-height);
 }
