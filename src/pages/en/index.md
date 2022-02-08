@@ -1,5 +1,5 @@
 ---
 title: index
-layout: "../../layouts/HomepageLayout.astro"
+layout: "../../layouts/en/HomepageLayout.astro"
 
 ---
