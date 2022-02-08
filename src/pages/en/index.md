@@ -8,5 +8,7 @@ services:
   serviceLink: "/services/jamstack/"
 - serviceTitle: WordPress Website Development
   serviceLink: "/services/wordpress/"
+- serviceTitle: Squarespace Website Design
+  serviceLink: "/services/squarespace/"
 
 ---
