@@ -12,5 +12,10 @@ fields:
   config:
     required: false
   label: Layout
+- name: seoTitle
+  type: text
+  config:
+    required: false
+  label: SEO Title
 pages:
 - src/pages/en/index.md
