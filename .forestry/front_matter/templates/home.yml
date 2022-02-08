@@ -12,3 +12,5 @@ fields:
   config:
     required: false
   label: Layout
+pages:
+- src/pages/en/index.md
