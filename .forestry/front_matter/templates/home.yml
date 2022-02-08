@@ -22,6 +22,11 @@ fields:
   config:
     required: false
   label: Hero Text
+- name: servicesTitle
+  type: text
+  config:
+    required: false
+  label: Services Title
 - name: services
   type: field_group_list
   fields:
