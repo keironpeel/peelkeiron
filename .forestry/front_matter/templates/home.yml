@@ -17,5 +17,10 @@ fields:
   config:
     required: false
   label: SEO Title
+- name: heroText
+  type: text
+  config:
+    required: false
+  label: Hero Text
 pages:
 - src/pages/en/index.md
