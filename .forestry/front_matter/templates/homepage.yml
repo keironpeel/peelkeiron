@@ -22,5 +22,3 @@ fields:
       path: 
   label: Layout
   description: Select layout template
-pages:
-- src/pages/en/index.md
