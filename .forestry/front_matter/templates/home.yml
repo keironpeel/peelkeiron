@@ -22,5 +22,23 @@ fields:
   config:
     required: false
   label: Hero Text
+- name: services
+  type: field_group_list
+  fields:
+  - name: serviceTitle
+    type: text
+    config:
+      required: false
+    label: Service Title
+  - name: serviceLink
+    type: text
+    config:
+      required: false
+    label: Service Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Services
 pages:
 - src/pages/en/index.md
