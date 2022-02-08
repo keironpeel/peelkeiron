@@ -7,3 +7,8 @@ fields:
   config:
     required: false
   label: Title
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
