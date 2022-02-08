@@ -6,5 +6,7 @@ heroText: Solving old problems with new solutions.
 services:
 - serviceTitle: Jamstack Website Development
   serviceLink: "/services/jamstack"
+- serviceTitle: WordPress Website Development
+  serviceLink: "/services/wordpress/"
 
 ---
