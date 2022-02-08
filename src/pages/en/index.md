@@ -10,5 +10,6 @@ services:
   serviceLink: "/services/wordpress/"
 - serviceTitle: Squarespace Website Design
   serviceLink: "/services/squarespace/"
+servicesTitle: Services
 
 ---
