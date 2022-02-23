@@ -11,5 +11,11 @@ services:
 - serviceTitle: Squarespace Website Design
   serviceLink: "/en/services/squarespace/"
 servicesTitle: Services
+aboutTitle: About me
+aboutParagraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida
+  libero commodo, rhoncus velit ac, pretium lacus. Nunc felis tortor, dictum vitae
+  elit a, egestas lobortis metus.
+aboutLinkText: Find out more
+aboutLink: "/en/about/"
 
 ---
