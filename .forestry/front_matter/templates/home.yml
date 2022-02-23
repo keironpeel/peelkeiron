@@ -45,5 +45,29 @@ fields:
     max: 
     labelField: 
   label: Services
+- name: aboutTitle
+  type: text
+  config:
+    required: false
+  label: About Title
+- name: aboutParagraph
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: About Paragraph
+- name: aboutLinkText
+  type: text
+  config:
+    required: false
+  label: About Link Text
+- name: aboutLink
+  type: text
+  config:
+    required: false
+  label: About Link
 pages:
 - src/pages/en/index.md
