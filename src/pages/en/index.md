@@ -5,11 +5,11 @@ seoTitle: Home - LEEP Studio
 heroText: Solving old problems with new solutions.
 services:
 - serviceTitle: Jamstack Website Development
-  serviceLink: "/services/jamstack/"
+  serviceLink: "/en/services/jamstack/"
 - serviceTitle: WordPress Website Development
-  serviceLink: "/services/wordpress/"
+  serviceLink: "/en/services/wordpress/"
 - serviceTitle: Squarespace Website Design
-  serviceLink: "/services/squarespace/"
+  serviceLink: "/en/services/squarespace/"
 servicesTitle: Services
 
 ---
