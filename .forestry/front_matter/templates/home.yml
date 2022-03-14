@@ -69,5 +69,32 @@ fields:
   config:
     required: false
   label: About Link
+- name: technologiesTitle
+  type: text
+  config:
+    required: false
+  label: Technologies Title
+- name: technologies
+  type: field_group_list
+  fields:
+  - name: technologyGroupTitle
+    type: text
+    config:
+      required: false
+    label: Technology Group Title
+  - name: technologyList
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Technology List
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Technologies
 pages:
 - src/pages/en/index.md
