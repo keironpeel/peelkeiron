@@ -17,5 +17,12 @@ aboutParagraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin g
   elit a, egestas lobortis metus.
 aboutLinkText: Find out more
 aboutLink: "/en/about/"
+technologiesTitle: Technologies
+technologies:
+- technologyGroupTitle: Javascript Frameworks
+  technologyList: |-
+    React
+    Vue
+    Svelte
 
 ---
