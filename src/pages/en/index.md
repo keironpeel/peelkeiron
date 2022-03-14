@@ -22,6 +22,6 @@ technologies:
 - technologyGroupTitle: Javascript Frameworks
   technologyList: React<br>Vue<br>Svelte
 - technologyGroupTitle: Static Site Generators
-  technologyList: "<p>Astro</p><p>Gatsby</p><p>Gridsome</p><p>NextJS</p><p>NuxtJS</p>"
+  technologyList: Astro<br>Gatsby<br>Gridsome<br>NextJS<br>NuxtJS
 
 ---
