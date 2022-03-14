@@ -20,7 +20,7 @@ aboutLink: "/en/about/"
 technologiesTitle: Technologies
 technologies:
 - technologyGroupTitle: Javascript Frameworks
-  technologyList: "<p>React</p><p>Vue</p><p>Svelte</p>"
+  technologyList: React<br>Vue<br>Svelte
 - technologyGroupTitle: Static Site Generators
   technologyList: "<p>Astro</p><p>Gatsby</p><p>Gridsome</p><p>NextJS</p><p>NuxtJS</p>"
 
