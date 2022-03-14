@@ -20,12 +20,7 @@ aboutLink: "/en/about/"
 technologiesTitle: Technologies
 technologies:
 - technologyGroupTitle: Static Site Generators
-  technologyList: |-
-    Astro
-    Gatsby
-    Gridsome
-    NextJS
-    NuxtJS
+  technologyList: "<p>Astro</p><p>Gatsby</p><p>Gridsome</p><p>NextJS</p><p>NuxtJS</p>"
 - technologyGroupTitle: Javascript Frameworks
   technologyList: |-
     React
