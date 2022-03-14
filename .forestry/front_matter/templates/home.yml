@@ -89,7 +89,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: html-blocks
+        format: html
     label: Technology List
   config:
     min: 
