@@ -23,5 +23,7 @@ technologies:
   technologyList: React<br>Vue<br>Svelte
 - technologyGroupTitle: Static Site Generators
   technologyList: Astro<br>Gatsby<br>Gridsome<br>NextJS<br>NuxtJS
+- technologyGroupTitle: WordPress
+  technologyList: Oxygen Builder<br>Smush<br>Defender<br>Hummingbird<br>Forminator
 
 ---
