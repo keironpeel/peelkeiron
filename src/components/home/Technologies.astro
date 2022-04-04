@@ -1,0 +1,70 @@
+---
+const content = Astro.props;
+---
+
+<style>
+    .section {
+        background-color: var(--grey);
+        color: var(--dark);
+        padding: 6.4rem 0;
+    }
+
+    .heading {
+        font-size: 3.6rem;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin: 0;
+        padding: 0 2rem;
+        text-transform: uppercase;
+    }
+
+    .text {
+        color: inherit;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .bold {
+        font-weight: 700;
+        margin-bottom: 0.8rem;
+    }
+
+    .technology {
+        border-bottom: var(--dark) solid 1px;
+        padding: 2.4rem 2rem;
+    }
+
+    @media screen and (min-width: 992px) {
+        .section {
+            padding: 12.8rem 0;
+        }
+
+        .heading {
+            font-size: 7.2rem;
+            padding: 0 8rem;
+        }
+
+        .text {
+            font-size: 3.6rem;
+        }
+
+        .bold {
+            margin-bottom: 1.6rem;
+        }
+
+        .technology {
+            border-bottom: var(--dark) solid 2px;
+            padding: 4.8rem 8rem;
+        }
+    }
+</style>
+
+<section class="section">
+    <h2 class="heading">{content.technologiesTitle}</h2>
+    {content.technologies.map(technology => (
+        <div class="technology">
+            <div class="text bold">{technology.technologyGroupTitle}</div>
+            <div class="text">{technology.technologyList}</div>
+        </div>
+    ))}
+</section>

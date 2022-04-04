@@ -1,0 +1,34 @@
+---
+const { hero } = Astro.props;
+---
+
+<style>
+    .section {
+        background-color: var(--grey);
+        color: var(--primary);
+        padding: 6.4rem 0;
+    }
+
+    .text {
+        font-size: 6rem;
+        font-weight: 700;
+        letter-spacing: -2px;
+        margin: 0;
+        text-align: justify;
+        text-transform: uppercase;
+    }
+
+    @media screen and (min-width: 992px) {
+        .section {
+            padding: 12.8rem 0;
+        }
+
+        .text {
+            font-size: 16rem;
+        }
+    }
+</style>
+
+<section class="section">
+    <h1 class="text">{hero}</h1>
+</section>

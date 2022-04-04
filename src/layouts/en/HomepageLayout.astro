@@ -1,0 +1,13 @@
+---
+import Head from "../Head.astro";
+import HomeSections from "../../components/home/HomeSections.astro";
+const { content } = Astro.props;
+---
+
+<html lang="en">
+    <Head title={content.seoTitle} />
+    <body>
+        <HomeSections content={content} />
+    </body>
+
+</html>

@@ -1,0 +1,18 @@
+---
+import Header from "../Header.astro";
+import Hero from "./Hero.astro";
+import Services from "./Services.astro";
+import About from "./About.astro";
+import Technologies from "./Technologies.astro";
+import Form from "../Form.astro";
+import Footer from "../Footer.astro";
+const { content } = Astro.props;
+---
+
+<Header />
+<Hero hero={content.heroText} />
+<Services servicesTitle={content.servicesTitle} services={content.services} />
+<About aboutTitle={content.aboutTitle} aboutParagraph={content.aboutParagraph} aboutLinkText={content.aboutLinkText} aboutLink={content.aboutLink} />
+<Technologies technologiesTitle={content.technologiesTitle} technologies={content.technologies} />
+<Form />
+<Footer />
