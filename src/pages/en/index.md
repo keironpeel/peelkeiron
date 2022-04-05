@@ -8,13 +8,14 @@ services:
   serviceLink: "/en/services/jamstack/"
 - serviceTitle: WordPress Website Development
   serviceLink: "/en/services/wordpress/"
-- serviceTitle: Squarespace Website Design
-  serviceLink: "/en/services/squarespace/"
+- serviceTitle: Web App Development
+  serviceLink: "/en/services/web-apps/"
 servicesTitle: Services
 aboutTitle: About me
-aboutParagraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida
-  libero commodo, rhoncus velit ac, pretium lacus. Nunc felis tortor, dictum vitae
-  elit a, egestas lobortis metus.
+aboutParagraph: I'm a freelance developer from Burnley, UK - now based in Lisbon,
+  Portugal. I have my roots in WordPress theme development. This meant a natural progression
+  into a modern stack, was Jamstack. From there, I've learned both front-end and backend
+  frameworks and libraries.
 aboutLinkText: Find out more
 aboutLink: "/en/about/"
 technologiesTitle: Technologies
