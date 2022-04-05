@@ -24,9 +24,44 @@ import plus from "../../public/plus.svg";
         text-decoration: none;
     }
 
+    .nav {
+      background: var(--grey);
+      color: var(--primary);
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      font-size: 1.8rem;
+    }
+
     .menu-toggle {
         cursor: pointer;
         width: 2.8rem;
+    }
+
+    .nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .nav li {
+      margin: 2.4rem 0;
+    }
+
+    .nav .menu-toggle {
+      position: absolute;
+      top: 16;
+      left: 20;
     }
 
     @media screen and (min-width: 992px) {
@@ -41,12 +76,17 @@ import plus from "../../public/plus.svg";
         .menu-toggle {
             width: 5.6rem;
         }
+
+        .nav {
+          font-size: 3.6rem;
+        }
     }
 </style>
 
 <header class="header">
-    <div class="logo"><a href="/en/" class="logo__link">LEEP</a></div>
-    <div class="menu-toggle">
-        <img src={plus} alt="" />
+    <div class="logo"><a href="/en/" class="logo__link">KEIRON</a></div>
+    <!-- <div class="menu-toggle">
+        <img src={ plus } alt="plus" />
     </div>
+    -->
 </header>
